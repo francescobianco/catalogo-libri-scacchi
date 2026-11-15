@@ -1,0 +1,106 @@
+# Catalogo Circolo del Re — elenco libri
+#
+# Campi per ogni libro:
+#   titolo     (obbligatorio)
+#   autore     (obbligatorio)
+#   asin       codice Amazon (10 caratteri, per i libri cartacei spesso = ISBN-10)
+#              in alternativa usa "link" con l'URL Amazon completo
+#   prezzo     numero, es. 19.90  (vuoto = "—")
+#   categoria  facoltativo: i libri vengono raggruppati per categoria
+#   bestseller true = badge "Best seller · si consiglia di ordinare almeno 5 copie"
+#   copertina  facoltativo: file locale o URL; se omesso usa covers/<asin>.jpg
+#              o la scarica da Amazon tramite l'ASIN
+#   note       facoltativo: una riga breve (editore, livello...)
+#
+# Prezzi rilevati su Amazon.it il 15/11/2026.
+
+edizione: "Novembre 2026"
+aggiornamento_prezzi: "15/11/2026"
+
+libri:
+  - titolo: "Il primo libro degli scacchi"
+    autore: "José Raúl Capablanca"
+    asin: "8842524190"
+    prezzo: 14.45
+    categoria: "Selezione"
+    note: "Mursia"
+
+  - titolo: "Corso completo di scacchi"
+    autore: "C. Pantaleoni, R. Messa, F. Benetti"
+    asin: "8890237937"
+    prezzo: 16.57
+    categoria: "Selezione"
+    note: "Le due torri"
+
+  - titolo: "100 fatti incredibili sugli scacchi"
+    autore: "World Stories Encyclopedia"
+    asin: "B0FK4PQSH5"
+    prezzo: 12.99
+    categoria: "Selezione"
+    note: "Curiosità, campioni, strategie e partite leggendarie"
+
+  - titolo: "I fondamenti degli scacchi e il match Lasker-Capablanca"
+    autore: "José Raúl Capablanca"
+    asin: "8842525561"
+    prezzo: 14.45
+    categoria: "Selezione"
+    note: "Mursia"
+
+  - titolo: "Kasparov insegna gli scacchi"
+    autore: "Garry Kasparov"
+    asin: "8842545309"
+    prezzo: 13.60
+    categoria: "Selezione"
+    note: "Mursia"
+
+  - titolo: "La psicologia del giocatore di scacchi"
+    autore: "Reuben Fine"
+    asin: "8845901858"
+    prezzo: 12.74
+    categoria: "Selezione"
+    note: "Adelphi"
+
+  - titolo: "Il mio sistema"
+    autore: "Aron Nimzowitsch"
+    asin: "8842527211"
+    prezzo: 16.15
+    categoria: "Selezione"
+    note: "Mursia"
+
+  - titolo: "Vincere a scacchi con il Metodo Pawn Royal"
+    autore: "Pawn Royal"
+    asin: "B0GTSWJZ7N"
+    prezzo: 13.94
+    categoria: "Selezione"
+    note: "Per migliorare senza perdere lucidità"
+
+  - titolo: "Gli scacchi, la vita. Lezione di strategia"
+    autore: "Garry Kasparov"
+    asin: "8804732393"
+    prezzo: 10.62
+    categoria: "Selezione"
+    note: "Mondadori"
+
+  - titolo: "1001 esercizi per principianti"
+    autore: "Franco Masetti, Roberto Messa"
+    asin: "8890237902"
+    prezzo: 14.87
+    categoria: "Best seller"
+    bestseller: true
+    note: "Le due torri"
+
+  - titolo: "Che cosa bisogna sapere sui finali"
+    autore: "Yuri Averbakh"
+    asin: "8896076188"
+    prezzo: 12.32
+    categoria: "Best seller"
+    bestseller: true
+    note: "Le due torri"
+
+  - titolo: "A scuola con gli scacchi. 300 esercizi con le prime strategie per vincere"
+    autore: "Tobias Hirneise"
+    asin: "8885720862"
+    prezzo: 8.41
+    categoria: "Best seller"
+    bestseller: true
+    note: "Le due torri · Ediz. illustrata, con adesivi"

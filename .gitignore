@@ -29,3 +29,9 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+# Catalogo
+.venv/
+build/
+__pycache__/
+.idea/
